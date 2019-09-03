@@ -1,0 +1,20 @@
+{
+  "description": "Ionic Native - Native plugins for ionic apps:Handtask App Handler For Cordova",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "author": "luyz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yagao0o/ionic-native-handtask-app-handler.git"
+  },
+  "name": "@ionic-native/handtask-app-handler",
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  },
+  "version": "0.1.0"
+}
