@@ -33,17 +33,19 @@ export declare class HandtaskAppHandlerOriginal extends IonicNativePlugin {
     /**
      * 获取二级应用列表
      * @param packageName {string} 当前应用包名
+     * @param isOut {boolean} 是否外网环境
      * @return {Promise<HandtaskApp[]>} 返回二级应用列表
      */
-    getApps(packageName: string): Promise<HandtaskApp[]>;
+    getApps(packageName: string, isOut: boolean): Promise<HandtaskApp[]>;
     /**
      * 启动app
      * @param packageName {string} 启动应用包名
      * @param activity {string} 启动应用Activity
      * @param param {string} 参数
+     * @param isOut {boolean} 是否外网环境
      * @return {Promise<HandtaskApp[]>} 返回二级应用列表
      */
-    startApp(packageName: string, activity: string, param: string): Promise<any>;
+    startApp(packageName: string, activity: string, param: string, isOut: boolean): Promise<any>;
 }
 
 export declare const HandtaskAppHandler: HandtaskAppHandlerOriginal;
